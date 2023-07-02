@@ -28,7 +28,7 @@ const ContactMe = () => {
             <SectionHeader name={"contact me"} />
             <Container>
                 <div className="hero mt-6" data-aos="fade-up" >
-                    <form className="card gap-3 flex-shrink-0 w-[75%] shadow-2xl bg-base-100" ref={form} onSubmit={sendEmail}>
+                    <form className="card gap-3 flex-shrink-0 w-full md:w-[75%] shadow-2xl bg-base-100" ref={form} onSubmit={sendEmail}>
                         <div className='lg:flex gap-6'>
                             <div className="form-control lg:w-[50%]">
                                 <label className='mb-2'>Name</label>
